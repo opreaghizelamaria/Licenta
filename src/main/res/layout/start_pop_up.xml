@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgradient">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center_horizontal"
+            android:text="Contact urgență"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/numar"
+            android:layout_below="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:ems="10"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+
+            android:id="@+id/textView3"
+            android:textSize="24sp"
+            android:layout_below="@+id/numar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Nume utilizator"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse" />
+
+        <EditText
+            android:id="@+id/numeUtiliz"
+            android:layout_below="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+            android:textColor="@android:color/background_light"
+            android:textColorHighlight="@color/white"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_below="@+id/numeUtiliz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:text="Vârsta"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/varsta"
+            android:layout_below="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_below="@+id/varsta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+
+            android:text="Grupa sanguină"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+            android:textSize="24sp"/>
+
+        <RadioGroup
+            android:id="@+id/sange"
+            android:layout_below="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+            android:textSize="24sp">
+
+            <RadioButton
+                android:id="@+id/o"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A"
+
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/b"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="B"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/ab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="AB"
+
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sange"
+            android:text="Rh"
+            android:gravity="center_horizontal"
+
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/RH"
+            android:layout_below="@+id/textView12"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+                android:id="@+id/poz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rh+"
+
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/neg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rh-"
+
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RH"
+            android:gravity="center_horizontal"
+
+
+            android:text="Sex"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+        <RadioGroup
+            android:id="@+id/sex"
+            android:layout_below="@id/textView13"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+                android:id="@+id/f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Feminin"
+
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Masculin"
+
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sex"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            android:text="Sarcină"
+            android:textColor="@color/white" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:gravity="center_horizontal"
+
+            android:text="Nu/Da"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch1"
+            android:text="Medicamente folosite"
+            android:gravity="center_horizontal"
+
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/textView14"
+            android:gravity="center_horizontal"
+            android:text="Nu/Da"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/medicamente"
+            android:gravity="center_horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/med"
+            android:layout_alignEnd="@+id/afectiuni"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/afec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:layout_below="@+id/medicamente"
+            android:text="Afecțiuni  cunoscute/ Alergii"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/afect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/afec"
+            android:gravity="center_horizontal"
+            android:text="Nu/Da"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/afectiuni"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/afect"
+            android:gravity="center_horizontal"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+
+
+        <Button
+            android:id="@+id/salveaza"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:layout_below="@id/afectiuni"
+            android:text="Salvează"
+            android:textColor="@android:color/background_light" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

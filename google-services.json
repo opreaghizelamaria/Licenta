@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "192585143086",
+    "firebase_url": "https://crash-9f6ba.firebaseio.com",
+    "project_id": "crash-9f6ba",
+    "storage_bucket": "crash-9f6ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192585143086:android:a4beb0a54eaf7672",
+        "android_client_info": {
+          "package_name": "com.example.opreaghizelamaria.accelerometer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192585143086-1m9vnscp08cfkr83tsi30abcgf84lv50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9pniITqse2vYS9i-oeMZTueT6pzFVhpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192585143086-1m9vnscp08cfkr83tsi30abcgf84lv50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192585143086:android:b754220104b8ccf1",
+        "android_client_info": {
+          "package_name": "com.example.opreaghizelamaria.licenta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192585143086-1m9vnscp08cfkr83tsi30abcgf84lv50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9pniITqse2vYS9i-oeMZTueT6pzFVhpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192585143086-1m9vnscp08cfkr83tsi30abcgf84lv50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
